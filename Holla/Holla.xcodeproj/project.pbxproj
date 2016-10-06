@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B3D421261D9BEB62003A6036 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D421251D9BEB62003A6036 /* AppDelegate.swift */; };
+		B3D421281D9BEB62003A6036 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D421271D9BEB62003A6036 /* ViewController.swift */; };
+		B3D4212B1D9BEB62003A6036 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3D421291D9BEB62003A6036 /* Main.storyboard */; };
+		B3D4212D1D9BEB62003A6036 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3D4212C1D9BEB62003A6036 /* Assets.xcassets */; };
+		B3D421301D9BEB62003A6036 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3D4212E1D9BEB62003A6036 /* LaunchScreen.storyboard */; };
+		B3D4213B1D9BEB62003A6036 /* HollaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D4213A1D9BEB62003A6036 /* HollaTests.swift */; };
+		B3D421461D9BEB62003A6036 /* HollaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D421451D9BEB62003A6036 /* HollaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B3D421371D9BEB62003A6036 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3D4211A1D9BEB62003A6036 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3D421211D9BEB62003A6036;
+			remoteInfo = Holla;
+		};
+		B3D421421D9BEB62003A6036 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3D4211A1D9BEB62003A6036 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3D421211D9BEB62003A6036;
+			remoteInfo = Holla;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B3D421221D9BEB62003A6036 /* Holla.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Holla.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3D421251D9BEB62003A6036 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B3D421271D9BEB62003A6036 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B3D4212A1D9BEB62003A6036 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B3D4212C1D9BEB62003A6036 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B3D4212F1D9BEB62003A6036 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B3D421311D9BEB62003A6036 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3D421361D9BEB62003A6036 /* HollaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HollaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3D4213A1D9BEB62003A6036 /* HollaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HollaTests.swift; sourceTree = "<group>"; };
+		B3D4213C1D9BEB62003A6036 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3D421411D9BEB62003A6036 /* HollaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HollaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3D421451D9BEB62003A6036 /* HollaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HollaUITests.swift; sourceTree = "<group>"; };
+		B3D421471D9BEB62003A6036 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B3D4211F1D9BEB62003A6036 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3D421331D9BEB62003A6036 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3D4213E1D9BEB62003A6036 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B3D421191D9BEB62003A6036 = {
+			isa = PBXGroup;
+			children = (
+				B3D421241D9BEB62003A6036 /* Holla */,
+				B3D421391D9BEB62003A6036 /* HollaTests */,
+				B3D421441D9BEB62003A6036 /* HollaUITests */,
+				B3D421231D9BEB62003A6036 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B3D421231D9BEB62003A6036 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B3D421221D9BEB62003A6036 /* Holla.app */,
+				B3D421361D9BEB62003A6036 /* HollaTests.xctest */,
+				B3D421411D9BEB62003A6036 /* HollaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B3D421241D9BEB62003A6036 /* Holla */ = {
+			isa = PBXGroup;
+			children = (
+				B3D421251D9BEB62003A6036 /* AppDelegate.swift */,
+				B3D421271D9BEB62003A6036 /* ViewController.swift */,
+				B3D421291D9BEB62003A6036 /* Main.storyboard */,
+				B3D4212C1D9BEB62003A6036 /* Assets.xcassets */,
+				B3D4212E1D9BEB62003A6036 /* LaunchScreen.storyboard */,
+				B3D421311D9BEB62003A6036 /* Info.plist */,
+			);
+			path = Holla;
+			sourceTree = "<group>";
+		};
+		B3D421391D9BEB62003A6036 /* HollaTests */ = {
+			isa = PBXGroup;
+			children = (
+				B3D4213A1D9BEB62003A6036 /* HollaTests.swift */,
+				B3D4213C1D9BEB62003A6036 /* Info.plist */,
+			);
+			path = HollaTests;
+			sourceTree = "<group>";
+		};
+		B3D421441D9BEB62003A6036 /* HollaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B3D421451D9BEB62003A6036 /* HollaUITests.swift */,
+				B3D421471D9BEB62003A6036 /* Info.plist */,
+			);
+			path = HollaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B3D421211D9BEB62003A6036 /* Holla */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3D4214A1D9BEB62003A6036 /* Build configuration list for PBXNativeTarget "Holla" */;
+			buildPhases = (
+				B3D4211E1D9BEB62003A6036 /* Sources */,
+				B3D4211F1D9BEB62003A6036 /* Frameworks */,
+				B3D421201D9BEB62003A6036 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Holla;
+			productName = Holla;
+			productReference = B3D421221D9BEB62003A6036 /* Holla.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B3D421351D9BEB62003A6036 /* HollaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3D4214D1D9BEB62003A6036 /* Build configuration list for PBXNativeTarget "HollaTests" */;
+			buildPhases = (
+				B3D421321D9BEB62003A6036 /* Sources */,
+				B3D421331D9BEB62003A6036 /* Frameworks */,
+				B3D421341D9BEB62003A6036 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B3D421381D9BEB62003A6036 /* PBXTargetDependency */,
+			);
+			name = HollaTests;
+			productName = HollaTests;
+			productReference = B3D421361D9BEB62003A6036 /* HollaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B3D421401D9BEB62003A6036 /* HollaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3D421501D9BEB62003A6036 /* Build configuration list for PBXNativeTarget "HollaUITests" */;
+			buildPhases = (
+				B3D4213D1D9BEB62003A6036 /* Sources */,
+				B3D4213E1D9BEB62003A6036 /* Frameworks */,
+				B3D4213F1D9BEB62003A6036 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B3D421431D9BEB62003A6036 /* PBXTargetDependency */,
+			);
+			name = HollaUITests;
+			productName = HollaUITests;
+			productReference = B3D421411D9BEB62003A6036 /* HollaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B3D4211A1D9BEB62003A6036 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = holla;
+				TargetAttributes = {
+					B3D421211D9BEB62003A6036 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = V4Y453TQ7X;
+						ProvisioningStyle = Automatic;
+					};
+					B3D421351D9BEB62003A6036 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = V4Y453TQ7X;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B3D421211D9BEB62003A6036;
+					};
+					B3D421401D9BEB62003A6036 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = V4Y453TQ7X;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B3D421211D9BEB62003A6036;
+					};
+				};
+			};
+			buildConfigurationList = B3D4211D1D9BEB62003A6036 /* Build configuration list for PBXProject "Holla" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B3D421191D9BEB62003A6036;
+			productRefGroup = B3D421231D9BEB62003A6036 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B3D421211D9BEB62003A6036 /* Holla */,
+				B3D421351D9BEB62003A6036 /* HollaTests */,
+				B3D421401D9BEB62003A6036 /* HollaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B3D421201D9BEB62003A6036 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3D421301D9BEB62003A6036 /* LaunchScreen.storyboard in Resources */,
+				B3D4212D1D9BEB62003A6036 /* Assets.xcassets in Resources */,
+				B3D4212B1D9BEB62003A6036 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3D421341D9BEB62003A6036 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3D4213F1D9BEB62003A6036 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B3D4211E1D9BEB62003A6036 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3D421281D9BEB62003A6036 /* ViewController.swift in Sources */,
+				B3D421261D9BEB62003A6036 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3D421321D9BEB62003A6036 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3D4213B1D9BEB62003A6036 /* HollaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3D4213D1D9BEB62003A6036 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3D421461D9BEB62003A6036 /* HollaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B3D421381D9BEB62003A6036 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B3D421211D9BEB62003A6036 /* Holla */;
+			targetProxy = B3D421371D9BEB62003A6036 /* PBXContainerItemProxy */;
+		};
+		B3D421431D9BEB62003A6036 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B3D421211D9BEB62003A6036 /* Holla */;
+			targetProxy = B3D421421D9BEB62003A6036 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B3D421291D9BEB62003A6036 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3D4212A1D9BEB62003A6036 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B3D4212E1D9BEB62003A6036 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3D4212F1D9BEB62003A6036 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B3D421481D9BEB62003A6036 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B3D421491D9BEB62003A6036 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B3D4214B1D9BEB62003A6036 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V4Y453TQ7X;
+				INFOPLIST_FILE = Holla/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = get.Holla;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		B3D4214C1D9BEB62003A6036 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V4Y453TQ7X;
+				INFOPLIST_FILE = Holla/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = get.Holla;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		B3D4214E1D9BEB62003A6036 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = V4Y453TQ7X;
+				INFOPLIST_FILE = HollaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = get.HollaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Holla.app/Holla";
+			};
+			name = Debug;
+		};
+		B3D4214F1D9BEB62003A6036 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = V4Y453TQ7X;
+				INFOPLIST_FILE = HollaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = get.HollaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Holla.app/Holla";
+			};
+			name = Release;
+		};
+		B3D421511D9BEB62003A6036 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = V4Y453TQ7X;
+				INFOPLIST_FILE = HollaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = get.HollaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Holla;
+			};
+			name = Debug;
+		};
+		B3D421521D9BEB62003A6036 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = V4Y453TQ7X;
+				INFOPLIST_FILE = HollaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = get.HollaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Holla;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B3D4211D1D9BEB62003A6036 /* Build configuration list for PBXProject "Holla" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3D421481D9BEB62003A6036 /* Debug */,
+				B3D421491D9BEB62003A6036 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3D4214A1D9BEB62003A6036 /* Build configuration list for PBXNativeTarget "Holla" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3D4214B1D9BEB62003A6036 /* Debug */,
+				B3D4214C1D9BEB62003A6036 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B3D4214D1D9BEB62003A6036 /* Build configuration list for PBXNativeTarget "HollaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3D4214E1D9BEB62003A6036 /* Debug */,
+				B3D4214F1D9BEB62003A6036 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B3D421501D9BEB62003A6036 /* Build configuration list for PBXNativeTarget "HollaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3D421511D9BEB62003A6036 /* Debug */,
+				B3D421521D9BEB62003A6036 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B3D4211A1D9BEB62003A6036 /* Project object */;
+}
