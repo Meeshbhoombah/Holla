@@ -7,13 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B30A94ED1DB111FB0057862F /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30A94EC1DB111FB0057862F /* Helper.swift */; };
+		B35C070A1DB1E4A600F71BC9 /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35C07091DB1E4A600F71BC9 /* InitialViewController.swift */; };
 		B3D421261D9BEB62003A6036 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D421251D9BEB62003A6036 /* AppDelegate.swift */; };
-		B3D421281D9BEB62003A6036 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D421271D9BEB62003A6036 /* ViewController.swift */; };
 		B3D4212B1D9BEB62003A6036 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3D421291D9BEB62003A6036 /* Main.storyboard */; };
 		B3D4212D1D9BEB62003A6036 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3D4212C1D9BEB62003A6036 /* Assets.xcassets */; };
 		B3D421301D9BEB62003A6036 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3D4212E1D9BEB62003A6036 /* LaunchScreen.storyboard */; };
 		B3D4213B1D9BEB62003A6036 /* HollaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D4213A1D9BEB62003A6036 /* HollaTests.swift */; };
 		B3D421461D9BEB62003A6036 /* HollaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D421451D9BEB62003A6036 /* HollaUITests.swift */; };
+		C896D85E0914CCA1B7AEDDB9 /* Pods_Holla.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D8004691604CD1D3D130C67 /* Pods_Holla.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +36,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9D8004691604CD1D3D130C67 /* Pods_Holla.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Holla.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B30A94EC1DB111FB0057862F /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		B35C07091DB1E4A600F71BC9 /* InitialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
 		B3D421221D9BEB62003A6036 /* Holla.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Holla.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3D421251D9BEB62003A6036 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B3D421271D9BEB62003A6036 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B3D4212A1D9BEB62003A6036 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B3D4212C1D9BEB62003A6036 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B3D4212F1D9BEB62003A6036 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +51,8 @@
 		B3D421411D9BEB62003A6036 /* HollaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HollaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3D421451D9BEB62003A6036 /* HollaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HollaUITests.swift; sourceTree = "<group>"; };
 		B3D421471D9BEB62003A6036 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4CEE5756DA9EA835CC4EA48 /* Pods-Holla.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Holla.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Holla/Pods-Holla.debug.xcconfig"; sourceTree = "<group>"; };
+		EDF1D3555D641BA9AC9352AF /* Pods-Holla.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Holla.release.xcconfig"; path = "Pods/Target Support Files/Pods-Holla/Pods-Holla.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C896D85E0914CCA1B7AEDDB9 /* Pods_Holla.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +81,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B9DB7617F6AC3BC79867008 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B4CEE5756DA9EA835CC4EA48 /* Pods-Holla.debug.xcconfig */,
+				EDF1D3555D641BA9AC9352AF /* Pods-Holla.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B30A94EE1DB112560057862F /* Singletons */ = {
+			isa = PBXGroup;
+			children = (
+				B3D421251D9BEB62003A6036 /* AppDelegate.swift */,
+				B30A94EC1DB111FB0057862F /* Helper.swift */,
+			);
+			name = Singletons;
+			sourceTree = "<group>";
+		};
+		B35C070B1DB1E4AC00F71BC9 /* Onboard */ = {
+			isa = PBXGroup;
+			children = (
+				B35C07091DB1E4A600F71BC9 /* InitialViewController.swift */,
+			);
+			name = Onboard;
+			sourceTree = "<group>";
+		};
 		B3D421191D9BEB62003A6036 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +114,8 @@
 				B3D421391D9BEB62003A6036 /* HollaTests */,
 				B3D421441D9BEB62003A6036 /* HollaUITests */,
 				B3D421231D9BEB62003A6036 /* Products */,
+				1B9DB7617F6AC3BC79867008 /* Pods */,
+				D8E95B80E4E59C80B720FA7D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,8 +132,8 @@
 		B3D421241D9BEB62003A6036 /* Holla */ = {
 			isa = PBXGroup;
 			children = (
-				B3D421251D9BEB62003A6036 /* AppDelegate.swift */,
-				B3D421271D9BEB62003A6036 /* ViewController.swift */,
+				B30A94EE1DB112560057862F /* Singletons */,
+				B35C070B1DB1E4AC00F71BC9 /* Onboard */,
 				B3D421291D9BEB62003A6036 /* Main.storyboard */,
 				B3D4212C1D9BEB62003A6036 /* Assets.xcassets */,
 				B3D4212E1D9BEB62003A6036 /* LaunchScreen.storyboard */,
@@ -125,6 +160,14 @@
 			path = HollaUITests;
 			sourceTree = "<group>";
 		};
+		D8E95B80E4E59C80B720FA7D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9D8004691604CD1D3D130C67 /* Pods_Holla.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B3D4214A1D9BEB62003A6036 /* Build configuration list for PBXNativeTarget "Holla" */;
 			buildPhases = (
+				0B4FE83200C8145DDCE0F55C /* [CP] Check Pods Manifest.lock */,
 				B3D4211E1D9BEB62003A6036 /* Sources */,
 				B3D4211F1D9BEB62003A6036 /* Frameworks */,
 				B3D421201D9BEB62003A6036 /* Resources */,
+				77613F9BC83902FA96284269 /* [CP] Embed Pods Frameworks */,
+				9DE7D2522EB4946F36DEBFF2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -194,17 +240,20 @@
 					B3D421211D9BEB62003A6036 = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = V4Y453TQ7X;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
 					B3D421351D9BEB62003A6036 = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = V4Y453TQ7X;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 						TestTargetID = B3D421211D9BEB62003A6036;
 					};
 					B3D421401D9BEB62003A6036 = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = V4Y453TQ7X;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 						TestTargetID = B3D421211D9BEB62003A6036;
 					};
@@ -257,12 +306,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0B4FE83200C8145DDCE0F55C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		77613F9BC83902FA96284269 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Holla/Pods-Holla-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9DE7D2522EB4946F36DEBFF2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Holla/Pods-Holla-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B3D4211E1D9BEB62003A6036 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3D421281D9BEB62003A6036 /* ViewController.swift in Sources */,
+				B35C070A1DB1E4A600F71BC9 /* InitialViewController.swift in Sources */,
+				B30A94ED1DB111FB0057862F /* Helper.swift in Sources */,
 				B3D421261D9BEB62003A6036 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -336,6 +434,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -385,6 +484,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -411,6 +511,7 @@
 		};
 		B3D4214B1D9BEB62003A6036 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4CEE5756DA9EA835CC4EA48 /* Pods-Holla.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = V4Y453TQ7X;
@@ -424,6 +525,7 @@
 		};
 		B3D4214C1D9BEB62003A6036 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDF1D3555D641BA9AC9352AF /* Pods-Holla.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = V4Y453TQ7X;
@@ -512,6 +614,7 @@
 				B3D4214C1D9BEB62003A6036 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B3D4214D1D9BEB62003A6036 /* Build configuration list for PBXNativeTarget "HollaTests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +623,7 @@
 				B3D4214F1D9BEB62003A6036 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B3D421501D9BEB62003A6036 /* Build configuration list for PBXNativeTarget "HollaUITests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +632,7 @@
 				B3D421521D9BEB62003A6036 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
