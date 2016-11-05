@@ -1,12 +1,40 @@
 PODS:
+  - Alamofire (4.0.1)
+  - Dodo (7.0.0)
+  - KeychainSwift (7.0.0)
+  - OAuthSwift (1.0.0)
   - PureLayout (3.0.2)
+  - Spring (1.0.3)
+  - SwiftyJSON (3.1.1)
 
 DEPENDENCIES:
+  - Alamofire (~> 4.0)
+  - Dodo (~> 7.0)
+  - KeychainSwift (~> 7.0)
+  - OAuthSwift (~> 1.0.0)
   - PureLayout
+  - Spring (from `https://github.com/MengTo/Spring.git`, branch `swift3`)
+  - SwiftyJSON
+
+EXTERNAL SOURCES:
+  Spring:
+    :branch: swift3
+    :git: https://github.com/MengTo/Spring.git
+
+CHECKOUT OPTIONS:
+  Spring:
+    :commit: 3a9227c6e9157e7b47f5ac1ee5abab2a56b50002
+    :git: https://github.com/MengTo/Spring.git
 
 SPEC CHECKSUMS:
+  Alamofire: 7682d43245de14874acd142ec137b144aa1dd335
+  Dodo: c66cf87f905dfde6d2ff660835975694927cb694
+  KeychainSwift: b6947435dd78cc442c64a84ae648dd0e871cf448
+  OAuthSwift: dd4f502ffd4f6e122b861b5e4529bf6454a30fe6
   PureLayout: 4d550abe49a94f24c2808b9b95db9131685fe4cd
+  Spring: 3f02b5dc3308572ef177b3cad0fa7bbc4b0706f7
+  SwiftyJSON: f0be2e604f83e8405a624e9f891898bf6ed4e019
 
-PODFILE CHECKSUM: 0950241edb7ed3fc4bd88413f64c7eb4c680d1a8
+PODFILE CHECKSUM: f33123354247a1705b92a618a29070c50db05ed1
 
 COCOAPODS: 1.0.1

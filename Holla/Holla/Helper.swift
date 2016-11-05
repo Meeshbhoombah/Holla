@@ -11,8 +11,8 @@ import UIKit
 
 class Helper {
     
-    func parseURL(url: String) -> Array<String> {
-        return url.characters.split(separator: "@").map(String.init)
+    func parseUserInfo(url: String) -> Array<String> {
+        return url.characters.split(separator: ":").map(String.init)
     }
     
     func hexStringToUIColor (hex:String) -> UIColor {
@@ -35,5 +35,13 @@ class Helper {
             blue: CGFloat(rgbValue & 0x0000FF) / 255.0,
             alpha: CGFloat(1.0)
         )
+    }
+}
+
+extension UILabel{
+    func addTextSpacing(spacing: CGFloat){
+        let attributedString = NSMutableAttributedString(string: self.text!)
+        attributedString.addAttribute(NSKernAttributeName, value: spacing, range: NSRange(location: 0, length: self.text!.characters.count))
+        self.attributedText = attributedString
     }
 }

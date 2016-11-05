@@ -8,9 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		B30A94ED1DB111FB0057862F /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30A94EC1DB111FB0057862F /* Helper.swift */; };
-		B35C070A1DB1E4A600F71BC9 /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35C07091DB1E4A600F71BC9 /* InitialViewController.swift */; };
+		B3948DC71DB4755F00F67FCE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3948DC61DB4755F00F67FCE /* Main.storyboard */; };
+		B39528901DBBF11B005A33DB /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = B395288F1DBBF11B005A33DB /* API.swift */; };
+		B39528921DBBF56D005A33DB /* EmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39528911DBBF56D005A33DB /* EmailViewController.swift */; };
 		B3D421261D9BEB62003A6036 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D421251D9BEB62003A6036 /* AppDelegate.swift */; };
-		B3D4212B1D9BEB62003A6036 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3D421291D9BEB62003A6036 /* Main.storyboard */; };
+		B3D4212B1D9BEB62003A6036 /* Onboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3D421291D9BEB62003A6036 /* Onboard.storyboard */; };
 		B3D4212D1D9BEB62003A6036 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3D4212C1D9BEB62003A6036 /* Assets.xcassets */; };
 		B3D421301D9BEB62003A6036 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3D4212E1D9BEB62003A6036 /* LaunchScreen.storyboard */; };
 		B3D4213B1D9BEB62003A6036 /* HollaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D4213A1D9BEB62003A6036 /* HollaTests.swift */; };
@@ -38,10 +40,12 @@
 /* Begin PBXFileReference section */
 		9D8004691604CD1D3D130C67 /* Pods_Holla.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Holla.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B30A94EC1DB111FB0057862F /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
-		B35C07091DB1E4A600F71BC9 /* InitialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
+		B3948DC61DB4755F00F67FCE /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		B395288F1DBBF11B005A33DB /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		B39528911DBBF56D005A33DB /* EmailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmailViewController.swift; sourceTree = "<group>"; };
 		B3D421221D9BEB62003A6036 /* Holla.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Holla.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3D421251D9BEB62003A6036 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B3D4212A1D9BEB62003A6036 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B3D4212A1D9BEB62003A6036 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Onboard.storyboard; sourceTree = "<group>"; };
 		B3D4212C1D9BEB62003A6036 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B3D4212F1D9BEB62003A6036 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B3D421311D9BEB62003A6036 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -90,21 +94,37 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		B30A94EE1DB112560057862F /* Singletons */ = {
+		B30A94EE1DB112560057862F /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
 				B3D421251D9BEB62003A6036 /* AppDelegate.swift */,
 				B30A94EC1DB111FB0057862F /* Helper.swift */,
+				B395288F1DBBF11B005A33DB /* API.swift */,
 			);
-			name = Singletons;
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		B310B6C71DB5352C008BE122 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Main;
 			sourceTree = "<group>";
 		};
 		B35C070B1DB1E4AC00F71BC9 /* Onboard */ = {
 			isa = PBXGroup;
 			children = (
-				B35C07091DB1E4A600F71BC9 /* InitialViewController.swift */,
+				B39528911DBBF56D005A33DB /* EmailViewController.swift */,
 			);
 			name = Onboard;
+			sourceTree = "<group>";
+		};
+		B36FDA631DB69F4F00267918 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				B3D4212C1D9BEB62003A6036 /* Assets.xcassets */,
+			);
+			name = Assets;
 			sourceTree = "<group>";
 		};
 		B3D421191D9BEB62003A6036 = {
@@ -132,12 +152,14 @@
 		B3D421241D9BEB62003A6036 /* Holla */ = {
 			isa = PBXGroup;
 			children = (
-				B30A94EE1DB112560057862F /* Singletons */,
-				B35C070B1DB1E4AC00F71BC9 /* Onboard */,
-				B3D421291D9BEB62003A6036 /* Main.storyboard */,
-				B3D4212C1D9BEB62003A6036 /* Assets.xcassets */,
 				B3D4212E1D9BEB62003A6036 /* LaunchScreen.storyboard */,
+				B3D421291D9BEB62003A6036 /* Onboard.storyboard */,
+				B3948DC61DB4755F00F67FCE /* Main.storyboard */,
 				B3D421311D9BEB62003A6036 /* Info.plist */,
+				B30A94EE1DB112560057862F /* Helpers */,
+				B35C070B1DB1E4AC00F71BC9 /* Onboard */,
+				B310B6C71DB5352C008BE122 /* Main */,
+				B36FDA631DB69F4F00267918 /* Assets */,
 			);
 			path = Holla;
 			sourceTree = "<group>";
@@ -242,6 +264,11 @@
 						DevelopmentTeam = V4Y453TQ7X;
 						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 0;
+							};
+						};
 					};
 					B3D421351D9BEB62003A6036 = {
 						CreatedOnToolsVersion = 8.0;
@@ -286,7 +313,8 @@
 			files = (
 				B3D421301D9BEB62003A6036 /* LaunchScreen.storyboard in Resources */,
 				B3D4212D1D9BEB62003A6036 /* Assets.xcassets in Resources */,
-				B3D4212B1D9BEB62003A6036 /* Main.storyboard in Resources */,
+				B3D4212B1D9BEB62003A6036 /* Onboard.storyboard in Resources */,
+				B3948DC71DB4755F00F67FCE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,9 +387,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B35C070A1DB1E4A600F71BC9 /* InitialViewController.swift in Sources */,
 				B30A94ED1DB111FB0057862F /* Helper.swift in Sources */,
+				B39528901DBBF11B005A33DB /* API.swift in Sources */,
 				B3D421261D9BEB62003A6036 /* AppDelegate.swift in Sources */,
+				B39528921DBBF56D005A33DB /* EmailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,12 +426,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		B3D421291D9BEB62003A6036 /* Main.storyboard */ = {
+		B3D421291D9BEB62003A6036 /* Onboard.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				B3D4212A1D9BEB62003A6036 /* Base */,
 			);
-			name = Main.storyboard;
+			name = Onboard.storyboard;
 			sourceTree = "<group>";
 		};
 		B3D4212E1D9BEB62003A6036 /* LaunchScreen.storyboard */ = {

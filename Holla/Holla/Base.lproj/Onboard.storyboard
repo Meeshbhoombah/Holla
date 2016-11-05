@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="QwO-4K-d0N">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Email View Controller-->
+        <scene sceneID="Xqn-tO-dYQ">
+            <objects>
+                <viewController id="QwO-4K-d0N" customClass="EmailViewController" customModule="Holla" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="vgh-oL-App"/>
+                        <viewControllerLayoutGuide type="bottom" id="y05-Vw-e3v"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="W2q-uG-mtF">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xm2-iG-KgZ">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="qUr-hL-Ovd"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" spellCheckingType="no" keyboardType="emailAddress" returnKeyType="next" enablesReturnKeyAutomatically="YES"/>
+                                <connections>
+                                    <action selector="userStoppedEditing:" destination="QwO-4K-d0N" eventType="editingDidEnd" id="HxY-gX-4XS"/>
+                                </connections>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="We won't share this with anyone." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BsB-da-fFE">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ivl-ku-NDF">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="8ok-Gm-2HD"/>
+                                    <constraint firstAttribute="width" constant="20" id="9tV-AH-eV3"/>
+                                </constraints>
+                                <state key="normal" title="Button" image="cancel"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="75D-63-yO8">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="75" id="qpY-Zf-LZf"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="NEXT">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <state key="disabled" title="NEXT">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Ivl-ku-NDF" firstAttribute="centerY" secondItem="75D-63-yO8" secondAttribute="centerY" id="5pM-l3-pif"/>
+                            <constraint firstItem="xm2-iG-KgZ" firstAttribute="centerX" secondItem="W2q-uG-mtF" secondAttribute="centerX" id="Ijt-xh-Kpb"/>
+                            <constraint firstItem="75D-63-yO8" firstAttribute="top" secondItem="vgh-oL-App" secondAttribute="bottom" constant="23" id="KUh-I0-jYX"/>
+                            <constraint firstItem="BsB-da-fFE" firstAttribute="top" secondItem="xm2-iG-KgZ" secondAttribute="bottom" constant="2" id="PNT-dk-TpJ"/>
+                            <constraint firstItem="y05-Vw-e3v" firstAttribute="top" secondItem="BsB-da-fFE" secondAttribute="bottom" constant="373" id="T82-Er-2pu"/>
+                            <constraint firstItem="Ivl-ku-NDF" firstAttribute="leading" secondItem="xm2-iG-KgZ" secondAttribute="leading" id="Urg-MO-5l9"/>
+                            <constraint firstItem="Ivl-ku-NDF" firstAttribute="leading" secondItem="W2q-uG-mtF" secondAttribute="leadingMargin" constant="24" id="X31-b7-k0s"/>
+                            <constraint firstItem="BsB-da-fFE" firstAttribute="leading" secondItem="W2q-uG-mtF" secondAttribute="leadingMargin" constant="25" id="e14-tu-ZzG"/>
+                            <constraint firstItem="75D-63-yO8" firstAttribute="trailing" secondItem="xm2-iG-KgZ" secondAttribute="trailing" id="j1g-Wh-oTy"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="emailInputField" destination="BsB-da-fFE" id="Kf5-Ie-Auw"/>
+                        <outlet property="nextButton" destination="75D-63-yO8" id="jKq-PE-cGP"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cbx-qv-M4O" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="281" y="344"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="cancel" width="48" height="48"/>
+    </resources>
+</document>
